@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма пошуку спортивних результатів</title>
+</head>
+<body class="main">
+    <h1 class="heading">Пошук спортивних результатів</h1>
+    <form class="sport-form" action="" method="GET">
+        <label class="label-name" for="team-name">Назва команди:
+            <input class="text-input" type="text" name="team_name" placeholder="Введіть назву команди">
+        </label>
+
+        <label class="label-sport" for="sport-type">Вид спорту:</label>
+        <select class="select" id="sport-type" name="sport_type">
+            <option value="football">Футбол</option>
+            <option value="basketball">Баскетбол</option>
+            <option value="tennis">Теніс</option>
+            <option value="hockey">Хокей</option>
+        </select>
+    </br>
+
+        <p class="paragraph">Стать учасників:</p>
+        <label class="label" for="male">Чоловіки
+            <input type="radio" id="male" name="gender" value="male"> 
+        </label>
+    </br>
+        <label class="label" for="female">Жінки
+            <input type="radio" id="female" name="gender" value="female">
+        </label>
+    </br>
+        <p class="paragraph">Фільтри:</p>
+        <label class="label" for="home">Домашня гра
+            <input class="checkbox" type="checkbox" id="home" name="location" value="home">
+        </label>
+    </br>
+        <label class="label" for="away">Виїзна гра
+             <input class="checkbox" type="checkbox" id="away" name="location" value="away">
+            </label>
+        </br>
+
+        <label class="label-data" for="match-date">Дата матчу:
+            <input class="text-input" type="date" id="match-date" name="match_date">
+        </label>
+    </br>
+<button class="button" type="submit">Пошук результатів</button>
+    </form>
+</body>
+</html>

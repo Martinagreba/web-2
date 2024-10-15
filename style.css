@@ -1,0 +1,101 @@
+.main{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+}
+
+.sport-form{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.label {
+    font-weight: normal;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.text-input, .select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e4f63d;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a1a51c;
+}
+
+.paragraph {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 360px) {
+    .main{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 20px ;
+    }
+}
+@media (min-width: 768px) {
+    .main {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .label {
+        font-weight: normal;
+        color: #000000;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .paragraph {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .label-name, .label-data, .label-sport {
+        font-size: 20px;
+    }
+}
+
+
